@@ -1,0 +1,23 @@
+{
+  "name": "googledino",
+  "version": "1.0.0",
+  "description": "google dino game",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack --mode development",
+    "build": "webpack --mode production",      
+    "watch": "webpack --mode development --watch"
+  },
+  "author": "binqie",
+  "license": "ISC",
+  "devDependencies": {
+    "clean-webpack-plugin": "^4.0.0",
+    "css-loader": "^6.6.0",
+    "file-loader": "^6.2.0",
+    "html-webpack-plugin": "^5.5.0",
+    "style-loader": "^3.3.1",
+    "url-loader": "^4.1.1",
+    "webpack": "^5.69.0",
+    "webpack-cli": "^4.9.2"
+  }
+}
