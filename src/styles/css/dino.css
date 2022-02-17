@@ -1,0 +1,36 @@
+.dino {
+    background-image: url('@img/dino/dino_standing');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 70px;
+    width: 70px;
+    position: absolute;
+    bottom: 0;
+    left: 30px;
+    z-index: 10;
+}
+
+.dino.leftfoot {
+    background-image: url('@img/dino/dino_left-foot');
+}
+
+.dino.rightfoot {
+    background-image: url('@img/dino/dino_right-foot');
+}
+
+.dino.animated {
+    background-image: url('@img/dino/dino_standing');
+    animation: jump 0.6s ease-out 0s 1;
+}
+
+@keyframes jump {
+    0% {
+        bottom: 0px;
+    }
+    50% {
+        bottom: 120px;
+    }
+    100% {
+        bottom: 0px;
+    }
+}

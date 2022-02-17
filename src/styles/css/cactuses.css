@@ -1,0 +1,19 @@
+.cactus {
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    bottom: 0;
+}
+
+.cactus.cactus1 {
+    background-image: url(@img/cactuses/cactus1);
+}
+.cactus.cactus2 {
+    background-image: url(@img/cactuses/cactus2);
+}
+.cactus.cactus3 {
+    background-image: url(@img/cactuses/cactus3);
+}
+.cactus.cactus4 {
+    background-image: url(@img/cactuses/cactus4);
+}

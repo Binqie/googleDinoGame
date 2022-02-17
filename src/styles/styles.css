@@ -1,0 +1,23 @@
+@import '@styles/css/gamewindow';
+@import '@styles/css/dino';
+@import '@styles/css/cactuses';
+@import '@styles/css/scores';
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+body {
+    background-color: #ccc;
+    width: 100vw;
+    height: 100vh;
+}
+
+.wrapper {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
